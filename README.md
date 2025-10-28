@@ -7,4 +7,4 @@ Find a demonstration script at `gbif_dataset/demo/occurence_api.py`. This script
 ## TODO
     - [ ] Study the GBIF API docs: https://techdocs.gbif.org/en/openapi/v1/occurrence, https://techdocs.gbif.org/en/openapi/images
     - [ ] Please populate the `species_list.txt` file with the scientific names of the species we are targeting for this work.
-    - [ ] Adatpt the demo script to loop over species list, refactored script goes to `gbif_dataset/download_dataset.py`. Images go to `gbif_dataset/images/{species_name}/{record_id}.{image_extension}` and metadata go to `gbif_dataset/metadata/{species_name}/{record_id}.json`.
+    - [ ] Adatpt the demo script to loop over species list, refactored script goes to `gbif_dataset/download_dataset.py`. Images go to `gbif_dataset/images/{species_name}/{record_id}.{image_extension}` and metadata go to `gbif_dataset/metadata/{species_name}/{record_id}.json`. Limit the script to download a maximum of 1000 images per species.
