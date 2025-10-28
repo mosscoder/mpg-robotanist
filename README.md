@@ -5,6 +5,6 @@ The purpose of this project is to assemble an image dataset for all known plant 
 Find a demonstration script at `gbif_dataset/demo/occurence_api.py`. This script illustrates best practices for using the GBIF occurrence API to download images and metadata. We must respect the GBIF policies to ensure we do not exceed the rate limits and avoid violating their terms of use.
 
 ## TODO
+    - [X] Populate the `species_list.txt` file with the scientific names of the species we are targeting for this work.
     - [ ] Study the GBIF API docs: https://techdocs.gbif.org/en/openapi/v1/occurrence, https://techdocs.gbif.org/en/openapi/images
-    - [ ] Please populate the `species_list.txt` file with the scientific names of the species we are targeting for this work.
     - [ ] Adatpt the demo script to loop over species list, refactored script goes to `gbif_dataset/download_dataset.py`. Images go to `gbif_dataset/images/{species_name}/{record_id}.{image_extension}` and metadata go to `gbif_dataset/metadata/{species_name}/{record_id}.json`. Limit the script to download a maximum of 1000 images per species.
