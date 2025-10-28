@@ -1,0 +1,4 @@
+gbif_dataset/images/*
+gbif_dataset/metadata/*
+.env
+

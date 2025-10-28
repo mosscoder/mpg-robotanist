@@ -1,0 +1,27 @@
+{
+  "gbifID": "5003971328",
+  "scientificName": "Achillea millefolium L.",
+  "species": "Achillea millefolium",
+  "decimalLatitude": 55.817047,
+  "decimalLongitude": 12.521202,
+  "country": "Denmark",
+  "locality": null,
+  "eventDate": "2025-01-01",
+  "recordedBy": "Morten Kofoed-Hansen",
+  "institutionCode": "MST-and-NHMD",
+  "collectionCode": null,
+  "catalogNumber": "Arter_0f597e4d-9cfe-4014-8c25-b2580086fa4c",
+  "basisOfRecord": "HUMAN_OBSERVATION",
+  "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+  "publisher": null,
+  "media": [
+    {
+      "type": "StillImage",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "identifier": "https://arter.dk/media/cb0306a6-c9f6-4c26-b305-b2580086f975.jpg"
+    }
+  ],
+  "citation": "GBIF Occurrence Download https://doi.org/10.15468/dl.5003971328",
+  "datasetKey": "963a6b96-4d22-4428-86e4-afee52cf4a8e",
+  "publishingOrgKey": "1a4e6112-b3af-402e-b29f-c2ade2167f72"
+}
